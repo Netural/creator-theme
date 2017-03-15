@@ -20,10 +20,10 @@
     {% endif %}
   </div>
 
-
   {% include story.content.component with blok: story.content, title: story.name, date: story.created_at %}
 
-  <script type="text/javascript" src="{{ 'assets/js/scripts.js' | asset_url }}"></script>
+  <script type="text/javascript" src="{{ 'assets/vendor.js' | asset_url }}"></script>
+  <script type="text/javascript" src="{{ 'assets/scripts.js' | asset_url }}"></script>
   <script type="text/javascript" src="//app.storyblok.com/storyblok-latest.js"></script>
   <script type="text/javascript">
 
