@@ -9,9 +9,19 @@
     "browser-sync": "^2.18.5",
     "browserify": "^13.1.1",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
     "gulp-blok": "^1.1.1",
-    "gulp-less": "^3.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-css-globbing": "^0.1.9",
+    "gulp-main-bower-files": "^1.6.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.0.4",
     "gulp-watch": "^4.3.11",
+    "tsify": "^0.14.2",
+    "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "uikit": "^2.27.2"
   }
 }
